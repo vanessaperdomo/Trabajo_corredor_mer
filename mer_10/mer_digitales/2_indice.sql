@@ -12,6 +12,6 @@ CREATE INDEX prioridad_id ON Prioridades(id_prioridad);
 -- Muy util si haces busquedas o filtros por nombre de prioridad
 CREATE INDEX nivelPrioridad ON Prioridades(nivel);
 
--- Muy importante para consultar recordatorios por fecha, ordenar por fecha o traer los próximos eventos rápidamente.
+-- Muy importante para consultar recordatorios por fecha, ordenar por fecha o traer los proximos eventos rapidamente.
 CREATE INDEX fecha_recordatorio ON Recordatorios(fecha_recordatorio);
 
